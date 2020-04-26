@@ -1,0 +1,82 @@
+<html>
+<head>
+  <title>MyPhysician</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="signup.css">
+  
+<script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '250px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+</script>
+</head>
+<body>
+ <table align="center" class="sign" width="1350px" height="10px"  >
+ 	<tr>
+ 		<th>
+  <div id="content">
+
+    <span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </span>
+
+    <div id="menu" class="nav" >
+     <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="EmergencyService.html">
+		  <input type="button" class="btn" value="Emergency Services" >
+            </a>
+        <a href="NewAppointment.html">
+        	<input type="button" class="btn" value="New Appointment">
+        </a>
+        <a href="ServicesProvided.html">
+        	<input type="button" class="btn" value="Services Provided">
+        </a>
+        <a href="Help.html">
+        	<input type="button" class="btn" value="Help">
+        </a>
+    </div>
+    </div>
+    </th>
+			
+			<th align="right"><h1>My Physician</h1></th>
+			<th align="right"><a href="mainlogin.html" >
+        	<button class="ab"><i class="fa fa-user-circle" aria-hidden="true"> </i></button>
+        </a>
+			</th>
+			</tr>
+			<tr>
+				<th align="center" colspan="3"><input type="text"  class="issue" placeholder="What is your issue?"></th>
+			</tr>
+			</table>
+		
+		
+		<br><br>
+		
+			<h2>How It Works</h2>
+			<p>The My Physician App enables the user to book appointments for local physicisan or specialist in the said radius. 
+               <br> In addition it allows the user to jot down the symptomps before consulting the doctor.
+                <br> Also it includes the Emergency pop up which when selected alerts the near by hospital and makes the ambulance on the door step.
+              
+               <br> The user can upload his/her previous medical history which helps the doctor for further case studies.
+                <br> By knowing the blood group of the patient it helps for searching blood donors as well as make blood avaliable through the blood banks in case of emergency.
+                </p>
+               
+				<h2 align="right">About The Services</h2>
+				<p align="right">Patients can book appointments of the doctor available nearest to you.
+
+                    <br>Patients can also get consultation through this website and pay the consultation charges to the doctor through the website.
+    
+                    <br>Doctors can treat the patients by making appointments available to them and also provide the consultattion through the website.
+    
+                    <br>Patients can also receive emergency services at their doorstep.</p>
+</body>
+</html>
