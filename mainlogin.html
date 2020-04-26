@@ -1,0 +1,60 @@
+<html>
+ <head> 
+  <title>Login</title> 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> 
+  <link rel="stylesheet" href="signup.css"> 
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('menu').style.width = '250px';
+      document.getElementById('content').style.marginLeft = '250px';
+    }
+    function closeSlideMenu(){
+      document.getElementById('menu').style.width = '0';
+      document.getElementById('content').style.marginLeft = '0';
+    }
+  </script>
+ </head> 
+ <body> 
+  <table align="center" class="sign" width="1350px" height="10px" > 
+   <tbody>
+    <tr>
+     <th> </th>
+     <th> 
+      <div id="content"> 
+       <span class="slide"> <a href="#" onclick="openSlideMenu()"> <i class="fas fa-bars"></i> </a> </span> 
+       <div id="menu" class="nav"> 
+        <a href="#" class="close" onclick="closeSlideMenu()"> <i class="fas fa-times"></i> </a> 
+        <a href="EmergencyService.html" target="_blank"> <input type="button" class="btn" value="Emergency Services"> </a> 
+        <a href="NewAppointment.html" target="_blank"> <input type="button" class="btn" value="New Appointment"> </a> 
+        <a href="ServicesProvided.html" target="_blank"> <input type="button" class="btn" value="Services Provided"> </a> 
+        <a href="Help.html" target="_blank"> <input type="button" class="btn" value="Help"> </a> 
+       </div> 
+      </div> </th> 
+     <th align="right"><a href="MyPhysician.html"><button class="asb"><h1>My Physician</h1></button></a></th> 
+     <th align="right"><a href="login.html"> <button class="ab"> <i class="fa fa-user-circle" aria-hidden="true"> </i> </button> </a> </th> 
+    </tr>
+   </tbody>
+  </table> 
+  <br><br><br>
+  <table align="center" >
+    <tr>
+      <th><a href="login.html"> <input type="button" class="btn" value="Patient Login"> </a>
+      </th>
+    
+        </tr>
+
+
+        <tr>
+            <th><a href="login1.html"> <input type="button" class="btn" value="Doctor Login"> </a>
+            </th>
+              </tr>
+
+
+              <tr>
+                <th><a href="login2.html"> <input type="button" class="btn" value="Recepetionist Login"> </a>
+                </th>
+                  </tr>
+    </table>
+ </body>
+</html>
