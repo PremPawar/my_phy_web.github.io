@@ -1,0 +1,111 @@
+<html>
+ <head> 
+  <title>Signup</title> 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> 
+  <link rel="stylesheet" href="signup.css"> 
+  
+  <script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '250px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+</script> 
+ </head> 
+ <body> 
+  <table align="center"  class="sign" width="1350px" height="10px" > 
+  <tbody> 
+    <tr> 
+     <th> 
+      <div id="content"> 
+       <span class="slide"> <a href="#" onclick="openSlideMenu()"> <i class="fas fa-bars"></i> </a> </span> 
+       <div id="menu" class="nav"> 
+        <a href="#" class="close" onclick="closeSlideMenu()"> <i class="fas fa-times"></i> </a> 
+        <a href="EmergencyService.html"> <input type="button" class="btn" value="Emergency Services"> </a> 
+        <a href="NewAppointment.html"> <input type="button" class="btn" value="New Appointment"> </a> 
+        <a href="ServicesProvided.html"> <input type="button" class="btn" value="Services Provided"> </a> 
+        <a href="Help.html"> <input type="button" class="btn" value="Help"> </a> 
+       </div> 
+      </div> </th> 
+     <th align="right"><a href="MyPhysician.html"><button class="asb"><h1>My Physician</h1></button></a></th> 
+     <th align="right"><a href="login.html"> <button class="ab"><i class="fa fa-user-circle" aria-hidden="true"></i></button> </a> </th> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <div class="centerForm"> 
+   <form id="form" autocomplete="off"> 
+    <h1>Sign Up</h1> 
+    <div class="textbox"> 
+     
+     <input required type="text" id="google" class="form-control" placeholder="Google Account"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="text" id="name" class="form-control" placeholder="Username"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="password" id="email" class="form-control" placeholder="password"> 
+	</div>
+	<br> 
+    <div class="textbox"> 
+     
+     <input required type="text" id="name" class="form-control" placeholder="Name"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="text" id="name" class="form-control" placeholder="Surname"> 
+	</div>
+	<br> 
+    <div class="textbox"> 
+     
+     <input required type="number" id="Age" class="form-control" placeholder="Age"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="text" id="Sex" class="form-control" placeholder="Sex"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="number" id="aadhar number" class="form-control" placeholder="Aadhar Number"> 
+	</div>
+	<br> 
+    <div class="textbox"> 
+    
+     <input required type="text" id="bloodgroup" class="form-control" placeholder="Blood Group"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+    
+     <input required type="number" id="height" class="form-control" placeholder="Height"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+    
+     <input required type="number" id="weight" class="form-control" placeholder="Weight"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="number" id="number" class="form-control" placeholder="Phone Number"> 
+	</div> 
+	<br>
+    <div class="textbox"> 
+     
+     <input required type="text" id="city" class="form-control" placeholder="City"> 
+	</div> 
+	<br>
+    
+    <button type="submit" class="btn btn-primary">SIGN UP</button> 
+   </form> 
+  </div> 
+ </body>
+</html>
