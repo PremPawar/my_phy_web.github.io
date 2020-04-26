@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>Login</title>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="signup.css">
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('menu').style.width = '250px';
+      document.getElementById('content').style.marginLeft = '250px';
+    }
+    function closeSlideMenu(){
+      document.getElementById('menu').style.width = '0';
+      document.getElementById('content').style.marginLeft = '0';
+    }
+  </script>
+  
+
+	</head>
+		<body>
+		<table align="center" class="sign" width="1350px" height="10px" >
+			<th>
+		<th>
+  <div id="content">
+
+    <span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </span>
+
+    <div id="menu" class="nav" >
+     <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="EmergencyService.html" target="_blank" >
+		  <input type="button" class="btn" value="Emergency Services" >
+            </a>
+        <a href="NewAppointment.html" target="_blank">
+        	<input type="button" class="btn" value="New Appointment">
+        </a>
+        <a href="ServicesProvided.html" target="_blank">
+        	<input type="button" class="btn" value="Services Provided">
+        </a>
+        <a href="Help.html" target="_blank">
+        	<input type="button" class="btn" value="Help">
+        </a>
+    </div>
+    </div>
+  </th>
+			<th align="right"><a href="MyPhysician.html"><button class="asb"><h1>My Physician</h1></button></th>
+			<th align="right"><a href="login.html">
+        	<button class="ab"> <i class="fa fa-user-circle" aria-hidden="true"> </i> </button>
+        </a>
+			</th>
+		</table>
+		<br><br><br><br><br><br>
+		<div class="login-box">
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"> </i>
+    <input type="text" placeholder="Username" id="userfield">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"> </i>
+    <input type="password" placeholder="Password" id="password">
+  </div>
+
+  <input type="button" class="btn" onclick="writedata" value="Log in" >
+
+  <a href="forget.html">Forgot Password:</a><br>
+  Don't have account?  <a href="signup1.html">Sign Up</a>
+</div>
+
+
+	</body>
+</html>
